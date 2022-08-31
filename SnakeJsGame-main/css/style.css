@@ -1,3 +1,4 @@
+/* developed by Vikas Jain */
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 *{
     padding: 0;
@@ -33,7 +34,7 @@
 }
 
 #board{
-    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    background: linear-gradient(rgb(242, 181, 60), rgb(133, 243, 74));
     width: 90vmin;
     height: 92vmin;
     border: 2px solid black;
@@ -43,20 +44,20 @@
 }
 
 .head{
-    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    background: linear-gradient(rgb(255, 0, 195), rgb(228, 228, 129));
     border: 2px solid rgb(34, 4, 34); 
     transform: scale(1.02);
-    border-radius: 9px;
+    border-radius: 90px;
 }
 
 .snake{
-    background-color: rgb(24, 125, 241);
-    border: .25vmin solid white;
-    border-radius: 12px;
+    background-color: rgb(243, 86, 68);
+    border: .25vmin solid rgb(208, 255, 0);
+    border-radius: 90px;
 }
 
 .food{
-    background: linear-gradient(rgb(232, 248, 7), rgb(8, 37, 165));
+    background: linear-gradient(rgb(55, 0, 255), rgb(0, 255, 76));
     border: .25vmin solid black;
-    border-radius: 8px;
+    border-radius: 90px;
 }
